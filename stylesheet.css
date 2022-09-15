@@ -10,7 +10,6 @@
   }
   
   main {
-    
     display: flex;
     flex-wrap: wrap;
     margin-top: 2%;
@@ -33,9 +32,9 @@
   .card {
     flex: 1 0 200px;
     padding: 10px;
-    border-style: solid;
+    border-style: noned;
     border-width: 0px;
-    box-shadow: 5px 5px 5px 5px grey;
+    box-shadow: 2px 2px 2px 2px grey;
   }
 
 
@@ -46,7 +45,7 @@
     color: rgb(219, 214, 226);
   }
   
-  .css-card:hover {
+  .css:hover {
     flex: 2 1 200px;
   }
   
