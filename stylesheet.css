@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    background: rgb(6, 6, 6)
+
+  }
+  
+  main {
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    color: white
+  }
+
+.justify-center {
+    justify-content: space-evenly;
+}  
+
+
+  .main-header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    background: rgb(9, 9, 9);
+    color: rgb(96, 202, 188);
+  }
+  
+  .card {
+    flex: 1 0 200px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 0px;
+    box-shadow: 5px 5px 5px 5px grey;
+  }
+
+
+  .card header {
+    padding: 20px;
+    text-align: center;
+    background: #0c0c0c;
+    color: rgb(219, 214, 226);
+  }
+  
+  .css-card:hover {
+    flex: 2 1 200px;
+  }
+  
