@@ -1,50 +1,50 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0;
-    background: rgb(6, 6, 6)
+  box-sizing: border-box;
+}
 
-  }
-  
-  main {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 2%;
-    color: white
-  }
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  background: rgb(6, 6, 6);
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  color: white;
+}
 
 .justify-center {
-    justify-content: space-evenly;
-}  
+  justify-content: space-evenly;
+}
 
+.main-header {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px;
+  background: rgb(9, 9, 9);
+  color: rgb(96, 202, 188);
+}
 
-  .main-header {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 40px;
-    background: rgb(9, 9, 9);
-    color: rgb(96, 202, 188);
-  }
-  
-  .card {
-    flex: 1 0 200px;
-    padding: 10px;
-    border-style: noned;
-    border-width: 0px;
-    box-shadow: 2px 2px 2px 2px grey;
-  }
+.card {
+  flex: 1 0 0;
+  padding: 10px;
+  image-orientation: center;
+  text-align: center;
+  border-style: solid;
+  border-width: 0px;
+  background-color: transparent;
+  border: 1px solid #66fcf1;
+}
 
+.card header {
+  padding: 20px;
+  text-align: center;
+  background: #0c0c0c;
+  color: rgb(219, 214, 226);
+}
 
-  .card header {
-    padding: 20px;
-    text-align: center;
-    background: #0c0c0c;
-    color: rgb(219, 214, 226);
-  }
-  
-  .css:hover {
-    flex: 2 1 200px;
-  }
+.css:hover {
+  flex: 2 1 200px;
+}
