@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+h1 {
+  font-size: 60px;
+}
+
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin: 0;
@@ -25,6 +29,7 @@ main {
   padding: 40px;
   background: rgb(9, 9, 9);
   color: rgb(96, 202, 188);
+  border-radius: 100px;
 }
 
 .card {
@@ -45,6 +50,19 @@ main {
   color: rgb(219, 214, 226);
 }
 
+.card:hover {
+  background-color: gold;
+}
+
 .css:hover {
   flex: 2 1 200px;
+}
+
+a {
+  background-color: powderblue;
+  transition: background-color 0.5s;
+}
+
+a:hover {
+  background-color: gold;
 }
